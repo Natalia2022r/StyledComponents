@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/StyledComponents/static/js/main.b7702af8.js",
+    "main.js": "/StyledComponents/static/js/main.feef625c.js",
     "index.html": "/StyledComponents/index.html",
-    "main.b7702af8.js.map": "/StyledComponents/static/js/main.b7702af8.js.map"
+    "main.feef625c.js.map": "/StyledComponents/static/js/main.feef625c.js.map"
   },
   "entrypoints": [
-    "static/js/main.b7702af8.js"
+    "static/js/main.feef625c.js"
   ]
 }
