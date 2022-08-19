@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import HomePages from "./component/HomePages";
-import NextPages from "./component/NextPages";
+import HomePages from "./component/HomePages/HomePages";
+import NextPages from "./component/NextPages/NextPages";
 
 
 function App() {

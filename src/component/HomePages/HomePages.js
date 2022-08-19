@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import validetion from "./validetion";
+import validetion from "../Validation/validetion";
 import { Body,
     Span,
     Button,
@@ -17,9 +17,9 @@ import { Body,
     Form,
     CheckboxDiv,
     AContainer,
-    LinkTo } from "../style";
+    LinkTo } from "../../style";
 
-    const photo = new URL ("./Icon/padlock.png", import.meta.url);
+    const photo = new URL ("../Icon/padlock.png", import.meta.url);
 
 function HomePages() {
     const [rememberMe, setRememberMe] = useState(false);
@@ -36,7 +36,7 @@ function HomePages() {
             setValues(userData.values);
              setRememberMe(true);
         }
-    }, []);
+    }, [userData.autoLogin, userData.values]);
     const resetData = () => {
         localStorage.clear();
     };

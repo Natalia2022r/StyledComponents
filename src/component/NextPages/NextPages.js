@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import validetion from "./validetion";
+import validetion from "../Validation/validetion";
 import {     Body,
     Span,
     InputContainer,
@@ -18,10 +18,10 @@ import {     Body,
     Form,
     CheckboxDiv,
     AContainer,
-    LinkTo,} from "../style";
+    LinkTo,} from "../../style";
 
 
-    const photo = new URL ("./Icon/padlock.png", import.meta.url);
+    const photo = new URL ("../Icon/padlock.png", import.meta.url);
 function NextPages() {
 
         const [values, setValues] = useState({
@@ -71,13 +71,13 @@ function NextPages() {
                                     type="text"
                                     value={values.firstName}
                                     onChange={handleChahge}
-                                    placeholder="First Name*"></Input>
+                                    placeholder="First Name"></Input>
                                 <Input
                                 name="lastName"
                                     type="text"
                                     value={values.lastName}
                                     onChange={handleChahge}
-                                    placeholder="Last Name*"></Input>
+                                    placeholder="Last Name"></Input>
                             </InputContainer>
                             <Input
 name="email"
