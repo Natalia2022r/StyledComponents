@@ -38,7 +38,7 @@ function HomePages() {
       setValues(userData.values);
       setRememberMe(true);
     }
-  }, [userData.autoLogin, userData.values]);
+  }, [userData?.autoLogin, userData.values]);
   const resetData = () => {
     localStorage.clear();
   };
